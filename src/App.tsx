@@ -1,11 +1,17 @@
+import AllVehicles from "./Dashboard/Components/AllVehicles";
+import Drivers from "./Dashboard/Components/Drivers";
+import Earnings from "./Dashboard/Components/Earnings";
+import Vehicle from "./Dashboard/Components/Vehicle";
 import Home from "./Home/Home";
 
 function App() {
   return (
     <>
-      <div className="h-[100vh]">
-        <Home />
-      </div>
+      <Home />
+      <Drivers />
+      <AllVehicles />
+      <Earnings />
+      <Vehicle />
     </>
   );
 }
