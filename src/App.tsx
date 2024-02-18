@@ -3,7 +3,9 @@ import Home from "./Home/Home";
 function App() {
   return (
     <>
-      <Home />
+      <div className="h-[100vh]">
+        <Home />
+      </div>
     </>
   );
 }
